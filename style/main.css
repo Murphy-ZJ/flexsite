@@ -14,3 +14,11 @@
 .is-text-center {
     text-align: center;
 }
+
+.navbar {
+    background: #110a11;
+}
+
+.navbar-item {
+    color: #fff;
+}
