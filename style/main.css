@@ -1,49 +1,68 @@
 body {
-    background: #f2f6e9;
+  background: #f2f6e9;
 }
 
 .footer {
-    background: #222;
-    color: #ccc;
+  background: #222;
+  color: #ccc;
 }
 
 .has-bg-img {
-    background: url("../assets/index-background.jpg") center center;
-    background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../assets/index-background.jpg") center center;
+  background-size: cover;
 }
 
-.title, .subtitle {
-    color: #fff;
+.title,
+.subtitle {
+  color: #fff;
 }
 
 .is-horizontal-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .is-text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar {
-    background: #110a11;
+  background: #110a11;
 }
 
 .navbar-item {
-    color: #fff;
+  color: #fff;
 }
 
 .hero-body {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 .hero-head {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .subtitle {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.employee-image {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.button {
+  background: rgb(121, 37, 133);
+  color: #fff;
+}
+
+.button:hover {
+  background: #fff;
+  color: rgb(121, 37, 133);
 }
 
 #about {
-    color: #5e5e55;
+  background: #dedec8;
+  color: #5e5e55;
 }
